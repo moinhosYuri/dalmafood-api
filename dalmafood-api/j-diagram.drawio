@@ -1,0 +1,35 @@
+<mxfile host="65bd71144e">
+    <diagram id="Bq2Ol8RWaf_YitLYFxhW" name="Página-1">
+        <mxGraphModel dx="519" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="Restaurante" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="20" y="20" width="320" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="html=1;strokeColor=none;resizeWidth=1;resizeHeight=1;fillColor=none;part=1;connectable=0;allowArrows=0;deletable=0;rounded=0;" parent="6" vertex="1">
+                    <mxGeometry width="480" height="424.6428571428571" relative="1" as="geometry">
+                        <mxPoint y="30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="43" value="" style="edgeStyle=none;html=1;" edge="1" parent="6" source="22" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="RestauranteService" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;" parent="6" vertex="1">
+                    <mxGeometry x="20" y="167.89129032258063" width="270" height="78.13888888888889" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="restauranteRepository: RestauranteRepository" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;shadow=0;glass=0;" parent="22" vertex="1">
+                    <mxGeometry y="29" width="270" height="49.13888888888888" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Restaurante" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=default;gradientColor=none;swimlaneFillColor=none;shadow=0;glass=0;swimlaneLine=1;" parent="6" vertex="1">
+                    <mxGeometry x="98.33512820512819" y="53.420204678362566" width="113.33" height="80" as="geometry">
+                        <mxRectangle x="55" y="38.5" width="110" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="id: Long&#10;nome: String&#9;&#10;descricao: String" style="text;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0;gradientColor=none;" parent="26" vertex="1">
+                    <mxGeometry y="26" width="113.33" height="54" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
